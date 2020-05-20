@@ -1,0 +1,22 @@
+{
+  "name": "appium-sample-test",
+  "version": "0.0.1",
+  "description": "Appium sample test code using 'wd'",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
+  },
+  "author": "Yoga Setiawan",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "@babel/register": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^7.0.1",
+    "wd": "^1.5.0"
+  }
+}
